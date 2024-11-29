@@ -1,0 +1,91 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+
+    background-color: white;
+}
+
+.collapse .navbar-nav .nav-link{
+
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none; 
+    transition: all 0.2s linear; 
+}
+
+.nav-link:hover{
+
+    
+    background-color: black;
+    color: white!important;
+    padding: 8px;
+}
+
+.navbar-brand{
+
+    font-size: 1.2rem;
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+}
+
+/* Main-section */
+
+.main{
+
+    
+    width: 100%;
+    height: 90vh;
+    
+}
+
+.para{
+
+    border-bottom: 3px black solid;
+    width: 180px;
+    font-size: 1.2rem;
+}
+
+.main .bt1{
+
+    height: 55px;
+    width: 138px;
+    background-color: rgb(160,20,180);
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.main .bt2{
+
+    height: 55px;
+    width: 138px;
+    background-color: transparent;
+    color: rgb(160,20,180);
+    outline: none;
+    border: 1px  solid rgb(160,20,180);;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.bt2:hover{
+
+    background-color: rgb(160,20,180);
+    color: white;
+    transition: 0.5s;
+}
+.bt1:hover{
+
+    background-color: rgb(82, 9, 91);
+    color: white;
+    transition: 0.5s;
+}
+
