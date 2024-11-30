@@ -89,3 +89,8 @@ nav{
     transition: 0.5s;
 }
 
+.image{
+
+    -webkit-box-shadow: -1px 2px 32px 5px rgba(0,0,0,0.44); 
+box-shadow: -1px 2px 32px 5px rgba(0,0,0,0.44);
+}
