@@ -115,6 +115,7 @@ box-shadow: -1px 2px 32px 5px rgba(0,0,0,0.44);
     justify-content: flex-start;
     align-items: center;
     border-radius: 50px;
+   
     
 
     
@@ -150,27 +151,12 @@ box-shadow: -1px 2px 32px 5px rgba(0,0,0,0.44);
         width: 70%;
     }
 }
-.progress0{
-
-    width: 100%;
-    height: 20px;
-    background-color: rgb(223,219,219);
-    color: white;
-    position: relative;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    border-radius: 50px;
-    
-    
-
-    
-}
 
 .progress2{
 
     height: 20px;
     width: 70%;
+    color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -190,34 +176,18 @@ box-shadow: -1px 2px 32px 5px rgba(0,0,0,0.44);
     0%{
 
         width: 0;
-        display: none;
+        
     }
     100%{
 
         width: 60%;
     }
 }
-.progress1{
-
-    width: 100%;
-    height: 20px;
-    background-color: rgb(223,219,219);
-    color: white;
-    position: relative;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    border-radius: 50px;
-    
-    
-
-    
-}
-
 .progress3{
 
     height: 20px;
     width: 70%;
+    color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -237,34 +207,18 @@ box-shadow: -1px 2px 32px 5px rgba(0,0,0,0.44);
     0%{
 
         width: 0;
-        display: none;
+        
     }
     100%{
 
-        width: 70%;
+        width: 65%;
     }
 }
-.progress2{
-
-    width: 100%;
-    height: 20px;
-    background-color: rgb(223,219,219);
-    color: white;
-    position: relative;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    border-radius: 50px;
-    
-    
-
-    
-}
-
 .progress4{
 
     height: 20px;
     width: 70%;
+    color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -284,12 +238,47 @@ box-shadow: -1px 2px 32px 5px rgba(0,0,0,0.44);
     0%{
 
         width: 0;
-       
+        
     }
     100%{
 
-        width: 40%;
+        width: 50%;
     }
+}
+
+.btn1{
+
+    width: 130px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    outline: none;
+    border-radius: 3px;
+}
+
+.btn1:hover{
+
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    transition: 0.4s;
+}
+.btn2{
+
+    width: 130px;
+    height: 35px;
+    background-color: transparent;
+    color: white;
+    transition: 0.3s linear;
+    border-radius: 3px;
+    color: black;
+    border: 2px solid black;
+}
+
+.btn2:hover{
+
+    background-color: black;
+    color: white;
 }
 
 
