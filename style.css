@@ -281,7 +281,52 @@ box-shadow: -1px 2px 32px 5px rgba(0,0,0,0.44);
     color: white;
 }
 
+/* service */
 
+.card{
+
+    border: none;
+    outline: none;
+
+    -webkit-box-shadow: 0px -1px 6px 3px rgba(0,0,0,0.41);
+-moz-box-shadow: 0px -1px 6px 3px rgba(0,0,0,0.41);
+box-shadow: 0px -1px 6px 3px rgba(0,0,0,0.41);
+}
+
+.card p{
+
+    color: gray;
+}
+
+.circle{
+
+    width: 70px;
+    height: 70px;
+    background-color: lightgray;
+    color: black;
+    padding: 14px;
+    display: inline-block;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.card:hover .circle{
+
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.circle .icon {
+
+font-size: 25px;
+
+}
+
+.card{
+
+    width: 40%;
+}
 
 
 
